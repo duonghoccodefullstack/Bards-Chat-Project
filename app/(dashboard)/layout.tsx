@@ -20,7 +20,7 @@ const DashboradLayout = ({
          */}
         
         <main className="md:pl-72">
-            Hello content
+           
             <Navbar></Navbar>
             {children}
         </main>

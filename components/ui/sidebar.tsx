@@ -31,21 +31,21 @@ const routes = [
     {
         label:"Conversation",
         icon :MessageSquare,
-        href:"/dashboard",
+        href:"/conversation",
         color:"text-pink-700",
         
     },
     {
         label:"Image Generation",
         icon :ImageIcon,
-        href:"/dashboard",
+        href:"/image",
         color:"text-orange-700",
         
     }, 
     {
     label:"Music Generation ",
     icon :MusicIcon,
-    href:"/dashboard",
+    href:"/audio",
     color:"text-emerald-500",   
 },
 {
