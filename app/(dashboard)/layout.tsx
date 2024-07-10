@@ -1,6 +1,6 @@
-import MobileSidebar from "@/components/ui/mobilesidebar";
+// import MobileSidebar from "@/components/ui/mobilesidebar";
 import Navbar from "@/components/ui/navbar";
-import PC from "@/components/ui/pcsidebar";
+// import PC from "@/components/ui/pcsidebar";
 // import { Sidebar } from "lucide-react";
 import Sidebar from "@/components/ui/sidebar";
 
@@ -16,8 +16,6 @@ const DashboradLayout = ({
             <Sidebar></Sidebar>
             
         </div>
-        {/* <MobileSidebar> </MobileSidebar>
-         */}
         
         <main className="md:pl-72">
            

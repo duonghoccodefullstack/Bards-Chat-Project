@@ -1,6 +1,6 @@
 "use client"
 import { Button } from "./button";
-import { Menu, } from "lucide-react";
+import { Menu } from "lucide-react";
 import   Sidebar from "@/components/ui/sidebar"
 
 import { 

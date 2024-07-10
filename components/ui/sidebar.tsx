@@ -53,12 +53,13 @@ const routes = [
     icon :CodeIcon,
     href:"/code",
     color:"text-green-700",   
-},{
-    label:"Settings ",
-    icon :Settings,
-    href:"/dashboard",
+ }
+//  ,{
+//     label:"Settings ",
+//     icon :Settings,
+//     href:"/dashboard",
     
-}
+// }
     
 ]
 

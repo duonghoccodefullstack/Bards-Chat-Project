@@ -6,6 +6,9 @@ import { UserButton } from '@clerk/nextjs'
 import { ArrowRight ,MessageSquare ,ImageIcon,MusicIcon,CodeIcon, VideoIcon, Router } from 'lucide-react'
 import { Card} from "@/components/ui/card"
 import { cn } from '@/lib/utils'
+interface DashboardPageProps {
+  title? : string;
+}
 const tools = [
   {
     label:"Conversation",
@@ -46,13 +49,15 @@ bgColor : "bg-green-700/10",
   }
 ]
 
-const DashboardPage = () => {
+const DashboardPage: React.FC<DashboardPageProps> = ({
+  title = "Explore the power of AI  "
+}) => {
   const router =useRouter ();
   return (
     <div>
        <div className='mb-8 space-y-4'>
         <h2 className='text-2xl md:text-4xl font-bold text-center'>
-          Explore the power of AI  
+         {title} 
         </h2>
         <p className='text-muted-foreground font-light text-sm  md:text-lg text-center'>
           Chat with the smartest Ai - Experience the power of AI
